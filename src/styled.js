@@ -37,15 +37,6 @@ object-position: center;
 display: block;
 `;
 
-export const Tile = styled.div`
-  list-style: none;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
 export const ProductsGridContainer = styled.div`
   margin-top: .5rem;
   display: grid;
