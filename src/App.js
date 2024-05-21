@@ -3,15 +3,16 @@ import {
   MainContainer,
   ImageContainer,
   Image,
-  Tile,
   StyledButton,
   ButtonContainer,
   ProductsGridContainer
 } from "./styled";
-import backgroundImage from "./images/background.jpeg"
+import { FooterList } from "./footerList/index.js"
+import { Tile } from "./Tile/index.js";
+import backgroundImage from "./images/background.jpeg";
 import gridIcon from "./images/gridIcon.png";
 import columnIcon from "./images/columnIcon.png";
-import product from "./images/product.jpeg"
+
 
 function App() {
   return (
@@ -33,28 +34,13 @@ function App() {
           </StyledButton>
         </ButtonContainer>
         <ProductsGridContainer>
-          <Tile>
-            <img src={product} width="100%" ></img>
-            T-shirt classic
-
-          </Tile>
-          <Tile>
-            <img src={product} width="100%" ></img>
-            T-shirt classic
-
-          </Tile>
-          <Tile>
-            <img src={product} width="100%" ></img>
-            T-shirt classic
-
-          </Tile>
-          <Tile>
-            <img src={product} width="100%" ></img>
-            T-shirt classic
-
-          </Tile>
+          <Tile></Tile>
+          <Tile></Tile>
+          <Tile></Tile>
+          <Tile></Tile>
         </ProductsGridContainer>
       </div>
+      <FooterList></FooterList>
     </MainContainer >
   );
 }
