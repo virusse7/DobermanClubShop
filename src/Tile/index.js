@@ -1,11 +1,10 @@
 import { Description, Image, OrderButton, ProductPrice, TileContainer } from "./styled";
-import product from "../images/product.jpeg";
 
-export const Tile = ({ productImage, description, productPrice }) => (
-  <TileContainer>
-    <Image src={product} width="100%" ></Image>
-    <Description>T-shirt classic</Description>
-    <ProductPrice>129zl</ProductPrice>
+export const Tile = ({ id, name, image, price }) => (
+  <TileContainer key={id}>
+    <Image src={image} width="100%" ></Image>
+    <Description>{name}</Description>
+    <ProductPrice>{price}</ProductPrice>
     <OrderButton>Do koszyka</OrderButton>
-  </TileContainer>
+  </TileContainer >
 );
