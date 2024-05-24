@@ -12,9 +12,11 @@ import { Tile } from "./Tile/index.js";
 import backgroundImage from "./images/background.jpeg";
 import gridIcon from "./images/gridIcon.png";
 import columnIcon from "./images/columnIcon.png";
+import { productsData } from "./Products/productsData.js";
 
 
 function App() {
+
   return (
     <MainContainer>
       <Header>
@@ -34,10 +36,14 @@ function App() {
           </StyledButton>
         </ButtonContainer>
         <ProductsGridContainer>
-          <Tile></Tile>
-          <Tile></Tile>
-          <Tile></Tile>
-          <Tile></Tile>
+          {productsData.map(product => (
+            <Tile
+              key={product.id}
+              name={product.name}
+              image={product.image}
+              price={product.price}
+            />
+          ))}
         </ProductsGridContainer>
       </div>
       <FooterList></FooterList>
