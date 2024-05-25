@@ -1,7 +1,7 @@
-import blackClassicTshirt from "../images/blackClassicTshirt.jpg";
-import blackDobermanTshirt from "../images/blackDobermanTshirt.jpg";
-import whiteClassicTshirt from "../images/whiteClassicTshirt.jpg";
-import whiteDobermanTshirt from "../images/whiteDobermanTshirt.jpg";
+import blackClassicTshirt from "./images/blackClassicTshirt.jpg";
+import blackDobermanTshirt from "./images/blackDobermanTshirt.jpg";
+import whiteClassicTshirt from "./images/whiteClassicTshirt.jpg";
+import whiteDobermanTshirt from "./images/whiteDobermanTshirt.jpg";
 
 export const productsData = [
   {
