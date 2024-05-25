@@ -20,8 +20,15 @@ export const StyledButton = styled.button`
 
 export const Header = styled.h1`
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-style: italic;
     margin: .5rem;
+`;
+
+export const SubHeader = styled.h2`
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
 `;
 
 export const ImageContainer = styled.div`
