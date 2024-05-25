@@ -5,15 +5,15 @@ import {
   Image,
   ProductsGridContainer,
   SubHeader
-} from "./styled.js";
-import { Line } from "./common/Line/styled.js"
+} from "../../styled.js";
+import { Line } from "../../common/Line/styled.js"
 import { FooterList } from "./footerList/index.js"
 import { Tile } from "./Tile/index.js";
 import backgroundImage from "./images/background.jpeg";
-import { productsData } from "./productsData.js";
+import { productsData } from "./productsData/productsData.js";
 
 
-function App() {
+export const DobermanClubShop = () => {
 
   return (
     <MainContainer>
@@ -41,6 +41,5 @@ function App() {
       <FooterList></FooterList>
     </MainContainer >
   );
-}
+};
 
-export default App;
