@@ -3,16 +3,14 @@ import {
   MainContainer,
   ImageContainer,
   Image,
-  StyledButton,
-  ButtonContainer,
-  ProductsGridContainer
-} from "./styled";
+  ProductsGridContainer,
+  SubHeader
+} from "./styled.js";
+import { Line } from "./common/Line/styled.js"
 import { FooterList } from "./footerList/index.js"
 import { Tile } from "./Tile/index.js";
 import backgroundImage from "./images/background.jpeg";
-import gridIcon from "./images/gridIcon.png";
-import columnIcon from "./images/columnIcon.png";
-import { productsData } from "./Products/productsData.js";
+import { productsData } from "./productsData.js";
 
 
 function App() {
@@ -25,27 +23,21 @@ function App() {
       <ImageContainer>
         <Image src={backgroundImage} />
       </ImageContainer>
-      <div>
+      <SubHeader>
         Produkty
-        <ButtonContainer>
-          <StyledButton>
-            <img src={gridIcon} width="24px" height="24px" ></img>
-          </StyledButton>
-          <StyledButton>
-            <img src={columnIcon} width="24px" height="24px" />
-          </StyledButton>
-        </ButtonContainer>
-        <ProductsGridContainer>
-          {productsData.map(product => (
-            <Tile
-              key={product.id}
-              name={product.name}
-              image={product.image}
-              price={product.price}
-            />
-          ))}
-        </ProductsGridContainer>
-      </div>
+      </SubHeader>
+      <Line />
+      <ProductsGridContainer>
+        {productsData.map(product => (
+          <Tile
+            key={product.id}
+            name={product.name}
+            image={product.image}
+            price={product.price}
+          />
+        ))}
+      </ProductsGridContainer>
+      <Line />
       <FooterList></FooterList>
     </MainContainer >
   );
