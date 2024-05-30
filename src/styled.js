@@ -45,8 +45,9 @@ display: block;
 `;
 
 export const ProductsGridContainer = styled.div`
-  margin-top: .5rem;
+  max-width: 50%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 `;
