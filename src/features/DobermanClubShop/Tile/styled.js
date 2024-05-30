@@ -9,11 +9,12 @@ export const TileContainer = styled.div`
   align-items: center;
   color: black;
   background-color: white;
-  margin-bottom: .5rem;
+  border-radius: 5px;
 `;
 
 export const Image = styled.img`
   padding: .5rem;
+  max-height: 600px;
 `;
 
 export const Description = styled.div`
@@ -30,4 +31,15 @@ width: 75%;
 padding: 0.5rem;
 margin: 10px 0;
 font-weight:bold;
+background-color: black;
+color: white;
+border: none;
+border-radius: 0.25rem;
+transition: 1s;
+cursor: pointer;
+
+&:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
 `;
