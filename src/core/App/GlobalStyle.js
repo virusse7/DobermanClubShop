@@ -4,11 +4,6 @@ const GlobalStyle = createGlobalStyle`
     html {
       box-sizing: border-box;
       margin: 0 50px;
-
-      a:visited {
-        color:whitesmoke;
-        
-      }
     }
     *, *::before, *::after {
       box-sizing: inherit;
