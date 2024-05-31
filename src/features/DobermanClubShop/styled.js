@@ -4,31 +4,11 @@ export const MainContainer = styled.div`
     
 `;
 
-
-export const ButtonContainer = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-`;
-
-export const StyledButton = styled.button`
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  margin: 5px;
-`;
-
 export const Header = styled.h1`
     text-align: center;
     font-size: 4rem;
     font-style: italic;
     margin: .5rem;
-`;
-
-export const SubHeader = styled.h2`
-  text-align: center;
-  font-size: 2.5rem;
-  margin: 20px 0;
 `;
 
 export const ImageContainer = styled.div`
@@ -42,6 +22,12 @@ width: 100%;
 object-fit: cover;
 object-position: center;
 display: block;
+`;
+
+export const SubHeader = styled.h2`
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
 `;
 
 export const ProductsGridContainer = styled.div`
