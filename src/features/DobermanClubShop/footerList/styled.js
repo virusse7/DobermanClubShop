@@ -22,7 +22,7 @@ export const ListHeader = styled.li`
   font-size: large;
 `;
 
-export const Link = styled.a`
+export const StyledLink = styled.a`
   text-decoration: none;
 
   
