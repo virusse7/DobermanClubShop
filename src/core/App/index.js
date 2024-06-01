@@ -1,15 +1,14 @@
 import React from 'react';
 import { DobermanClubShop } from '../../features/DobermanClubShop';
-import { 
-  BrowserRouter,
-  Route,
-  Routes,
-} from 'react-router-dom';
+import GlobalStyle from './GlobalStyle';
+import { Normalize } from 'styled-normalize';
 
 export const App = () => {
   return (
     <React.StrictMode>
-      <DobermanClubShop/>
+      <Normalize />
+      <GlobalStyle />
+      <DobermanClubShop />
     </React.StrictMode>
   );
 }
