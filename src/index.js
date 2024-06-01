@@ -5,10 +5,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { ContactPage } from './features/DobermanClubShop/ContactPage';
-import { RegulationsPage } from './features/DobermanClubShop/RegulationsPage';
-import { RefundPage } from "./features/DobermanClubShop/RefundPage";
-import { PolicyPrivacyPage } from "./features/DobermanClubShop/PolicyPrivacyPage";
+import { ContactPage } from './features/DobermanClubShop/SubPages/ContactPage';
+import { RegulationsPage } from './features/DobermanClubShop/SubPages/RegulationsPage';
+import { RefundPage } from "./features/DobermanClubShop/SubPages/RefundPage";
+import { PolicyPrivacyPage } from "./features/DobermanClubShop/SubPages/PolicyPrivacyPage";
 
 
 const router = createBrowserRouter([
