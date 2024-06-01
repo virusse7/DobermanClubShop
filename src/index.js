@@ -5,7 +5,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { Contact } from './features/Contact';
+import { ContactPage } from './features/DobermanClubShop/ContactPage';
+import { RegulationsPage } from './features/DobermanClubShop/RegulationsPage';
+import { RefundPage } from "./features/DobermanClubShop/RefundPage";
+import { PolicyPrivacyPage } from "./features/DobermanClubShop/PolicyPrivacyPage";
+
 
 const router = createBrowserRouter([
   {
@@ -14,21 +18,21 @@ const router = createBrowserRouter([
   },
   {
     path: "/DobermanClubShop/kontakt",
-    element: <Contact />
+    element: <ContactPage />
 
   },
-  // {
-  //   path: "/DobermanClubShop/regulamin",
-  //   element: <Regulations />
-  // },
-  // {
-  //   path: "/DobermanClubShop/zwroty-reklamacje",
-  //   element: <Refund />
-  // },
-  // {
-  //   path: "/DobermanClubShop/polityka-prywatnosci",
-  //   element: <PolicePrivacy />
-  // }
+  {
+    path: "/DobermanClubShop/regulamin",
+    element: <RegulationsPage />
+  },
+  {
+    path: "/DobermanClubShop/zwroty-reklamacje",
+    element: <RefundPage />
+  },
+  {
+    path: "/DobermanClubShop/polityka-prywatnosci",
+    element: <PolicyPrivacyPage />
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

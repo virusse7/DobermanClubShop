@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-export const Contact = () => (
+export const ContactPage = () => (
   <>
     <div>
       Hello
