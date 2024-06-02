@@ -7,16 +7,15 @@ export const FooterList = () => (
     <ul>
       <ListHeader>Pomoc</ListHeader>
       <ListItem>
-        <StyledLink href="">Regulamin</StyledLink>
+        <Link to={`/DobermanClubShop/regulamin`} >Regulamin</Link>
       </ListItem>
       <ListItem>
-        <StyledLink href="">Zwroty i reklamacje</StyledLink>
+        <Link to={`/DobermanClubShop/zwroty-reklamacje`} >Zwroty i reklamacje</Link>
       </ListItem>
     </ul>
     <ul>
-      <ListHeader>
-        O nas
-      </ListHeader>
+      <ListHeader>O nas</ListHeader>
+    
       <ListItem>
         <Link to={`/DobermanClubShop/kontakt`}>
           Kontakt i dane
@@ -24,11 +23,10 @@ export const FooterList = () => (
       </ListItem>
     </ul>
     <ul>
-      <ListHeader>
-        Informacje
-      </ListHeader>
+      <ListHeader>Informacje</ListHeader>
+    
       <ListItem>
-        <StyledLink href="">Polityka prywatności</StyledLink>
+        <Link to={`/DobermanClubShop/polityka-prywatnosci`} >Polityka prywatności</Link>
       </ListItem>
     </ul>
   </FooterContainer>

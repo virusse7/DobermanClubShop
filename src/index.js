@@ -9,6 +9,8 @@ import { ContactPage } from './features/DobermanClubShop/SubPages/ContactPage';
 import { RegulationsPage } from './features/DobermanClubShop/SubPages/RegulationsPage';
 import { RefundPage } from "./features/DobermanClubShop/SubPages/RefundPage";
 import { PolicyPrivacyPage } from "./features/DobermanClubShop/SubPages/PolicyPrivacyPage";
+import GlobalStyle from './core/App/GlobalStyle';
+import { Normalize } from 'styled-normalize';
 
 
 const router = createBrowserRouter([
@@ -39,5 +41,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <GlobalStyle/>
+    <Normalize/>
   </React.StrictMode>
 );
