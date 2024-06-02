@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/DobermanClubShop/static/js/main.87f75852.js",
+    "main.js": "/DobermanClubShop/static/js/main.ffe9a43f.js",
     "static/media/blackDobermanTshirt.jpg": "/DobermanClubShop/static/media/blackDobermanTshirt.d96cbe266e37d9d19469.jpg",
     "static/media/blackClassicTshirt.jpg": "/DobermanClubShop/static/media/blackClassicTshirt.b58f4f4d4c3d02ad51ba.jpg",
     "static/media/whiteDobermanTshirt.jpg": "/DobermanClubShop/static/media/whiteDobermanTshirt.66c0f60b402611645fd7.jpg",
     "static/media/whiteClassicTshirt.jpg": "/DobermanClubShop/static/media/whiteClassicTshirt.0b336ca887b83ccf642d.jpg",
     "static/media/background.jpeg": "/DobermanClubShop/static/media/background.1033914630553d3c37b3.jpeg",
     "index.html": "/DobermanClubShop/index.html",
-    "main.87f75852.js.map": "/DobermanClubShop/static/js/main.87f75852.js.map"
+    "main.ffe9a43f.js.map": "/DobermanClubShop/static/js/main.ffe9a43f.js.map"
   },
   "entrypoints": [
-    "static/js/main.87f75852.js"
+    "static/js/main.ffe9a43f.js"
   ]
 }
