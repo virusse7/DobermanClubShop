@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { FooterList } from "../../FooterList"
 
 export const ContactPage = () => (
   <>
@@ -8,5 +9,6 @@ export const ContactPage = () => (
     <Link to={`/DobermanClubShop`}>
       Powrót
     </Link>
+    <FooterList/>
   </>
 )
