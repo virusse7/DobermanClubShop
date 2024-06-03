@@ -9,7 +9,7 @@ export const FooterContainer = styled.div`
 
 export const ListItem = styled.li`
   list-style: none;
-  margin: .5rem;
+  margin: .25rem;
 `;
 
 export const ListHeader = styled.li`
