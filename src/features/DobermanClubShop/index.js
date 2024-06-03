@@ -1,11 +1,11 @@
 import {
-  Header,
   MainContainer,
   ImageContainer,
   Image,
   ProductsGridContainer,
   SubHeader
 } from "./styled.js";
+import { Header } from "./Header/index.js";
 import { Line } from "../../common/Line/styled.js";
 import { FooterList } from "./FooterList/index.js";
 import { Tile } from "./Tile/index.js";
