@@ -1,32 +1,31 @@
 
 import { FooterContainer, ListItem, ListHeader, StyledLink } from "./styled";
-import { Link } from "react-router-dom";
 
 export const FooterList = () => (
   <FooterContainer>
     <ul>
       <ListHeader>Pomoc</ListHeader>
       <ListItem>
-        <Link to={`/DobermanClubShop/regulamin`} >Regulamin</Link>
+        <StyledLink to={`/DobermanClubShop/regulamin`} >Regulamin</StyledLink>
       </ListItem>
       <ListItem>
-        <Link to={`/DobermanClubShop/zwroty-reklamacje`} >Zwroty i reklamacje</Link>
+        <StyledLink to={`/DobermanClubShop/zwroty-reklamacje`} >Zwroty i reklamacje</StyledLink>
       </ListItem>
     </ul>
     <ul>
       <ListHeader>O nas</ListHeader>
-    
+
       <ListItem>
-        <Link to={`/DobermanClubShop/kontakt`}>
+        <StyledLink to={`/DobermanClubShop/kontakt`}>
           Kontakt i dane
-        </Link>
+        </StyledLink>
       </ListItem>
     </ul>
     <ul>
       <ListHeader>Informacje</ListHeader>
-    
+
       <ListItem>
-        <Link to={`/DobermanClubShop/polityka-prywatnosci`} >Polityka prywatności</Link>
+        <StyledLink to={`/DobermanClubShop/polityka-prywatnosci`} >Polityka prywatności</StyledLink>
       </ListItem>
     </ul>
   </FooterContainer>
