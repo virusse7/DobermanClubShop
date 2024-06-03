@@ -37,7 +37,7 @@ export const DobermanClubShop = () => {
         ))}
       </ProductsGridContainer>
       <Line />
-      <FooterList></FooterList>
+      <FooterList />
     </MainContainer >
   );
 };
