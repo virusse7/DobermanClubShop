@@ -19,6 +19,7 @@ export const Image = styled.img`
 
 export const Description = styled.div`
 font-size: 1.2rem;
+text-align: center;
 `;
 
 export const ProductPrice = styled.div`

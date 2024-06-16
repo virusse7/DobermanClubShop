@@ -20,7 +20,7 @@ export const DobermanClubShop = () => {
         Doberman Club
       </Header>
       <ImageContainer>
-        <Image src={backgroundImage} />
+        <Image src={backgroundImage} alt="banner" />
       </ImageContainer>
       <SubHeader>
         Produkty
@@ -33,6 +33,7 @@ export const DobermanClubShop = () => {
             name={product.name}
             image={product.image}
             price={product.price}
+            alt={product.alt}
           />
         ))}
       </ProductsGridContainer>
