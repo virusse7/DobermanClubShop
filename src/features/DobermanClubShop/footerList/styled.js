@@ -5,6 +5,10 @@ export const FooterContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -29,4 +33,8 @@ export const StyledLink = styled(Link)`
   &:hover {
     color: gray;
   }
+`;
+
+export const StyledUl = styled.ul`
+  padding: 0;
 `;

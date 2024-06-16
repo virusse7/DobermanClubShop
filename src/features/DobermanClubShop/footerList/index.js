@@ -1,9 +1,9 @@
 
-import { FooterContainer, ListItem, ListHeader, StyledLink } from "./styled";
+import { FooterContainer, ListItem, ListHeader, StyledLink, StyledUl } from "./styled";
 
 export const FooterList = () => (
   <FooterContainer>
-    <ul>
+    <StyledUl>
       <ListHeader>Pomoc</ListHeader>
       <ListItem>
         <StyledLink to={`/DobermanClubShop/regulamin`} >Regulamin</StyledLink>
@@ -11,8 +11,8 @@ export const FooterList = () => (
       <ListItem>
         <StyledLink to={`/DobermanClubShop/zwroty-reklamacje`} >Zwroty i reklamacje</StyledLink>
       </ListItem>
-    </ul>
-    <ul>
+    </StyledUl>
+    <StyledUl>
       <ListHeader>O nas</ListHeader>
 
       <ListItem>
@@ -20,13 +20,13 @@ export const FooterList = () => (
           Kontakt i dane
         </StyledLink>
       </ListItem>
-    </ul>
-    <ul>
+    </StyledUl>
+    <StyledUl>
       <ListHeader>Informacje</ListHeader>
 
       <ListItem>
         <StyledLink to={`/DobermanClubShop/polityka-prywatnosci`} >Polityka prywatności</StyledLink>
       </ListItem>
-    </ul>
+    </StyledUl>
   </FooterContainer>
 );
