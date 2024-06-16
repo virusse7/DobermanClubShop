@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Link = styled.a`
+  text-decoration: none;
+  color: inherit;
+`;
+
 export const TileContainer = styled.div`
   list-style: none;
   border: 1px solid black;
